@@ -1,0 +1,15 @@
+html
+	head
+		
+body
+	include ../partials/header
+
+	div#main
+		h1 Statistics by Restaurant:
+		ul
+			each restaurant in resOrders
+				h2 #{restaurant.name}
+				ul
+				each stat in restaurant.stats
+					li= stat
+				br
