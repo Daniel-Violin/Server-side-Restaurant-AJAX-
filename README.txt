@@ -1,5 +1,4 @@
-name: Daniel Violin
-student number: 101173598
+A server capable of serving the order form resources from the client side. The server is also be responsible for tracking some sales data for each restaurant and providing that sales data in HTML format whenrequested. All order data that the server stores is stored in RAM.
 
 1. Navigate to location of assignment2 inside terminal
 2. Run 'npm install pug' at this location
@@ -10,8 +9,7 @@ student number: 101173598
 
 Design Choices:
 
-- Firstly, I decided to use the starter code for the client.js and orderform.html provided to us in the assignment.
-  I did this because my code from A1 (although it met all specifications) was much less organized than the starter code.
+- Firstly, I started with my old code from the Client-Side repository.
 
 - Secondly, I chose to use custom urls, like querystrings (kind of), that are concactenated to the end of the normal url.
   These custom additions to the urls tell the server important information (mainly about the currently selected restaurant
