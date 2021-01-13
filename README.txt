@@ -1,5 +1,7 @@
 A server capable of serving the order form resources from the client side. The server is also be responsible for tracking some sales data for each restaurant and providing that sales data in HTML format whenrequested. All order data that the server stores is stored in RAM.
 
+(If you want to run it I recommend downloading the zip because the template engine files and jasons are in seperate directories in the original folder/code)
+
 1. Navigate to location of assignment2 inside terminal
 2. Run 'npm install pug' at this location
 3. Run 'node server.js'
